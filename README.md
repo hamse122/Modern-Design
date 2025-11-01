@@ -2,6 +2,26 @@
 
 A cutting-edge, responsive portfolio website built with TypeScript, JavaScript, and CSS. Features modern 2025 design trends including dark/light mode, glassmorphism effects, and dynamic content generation.
 
+## Screenshots
+
+### Dark Mode
+![Portfolio Dark Mode](screenshots/dark-mode.png)
+*Modern dark theme with gradient hero section and glassmorphism effects*
+
+### Light Mode
+![Portfolio Light Mode](screenshots/light-mode.png)
+*Clean light theme with smooth transitions*
+
+### Responsive Design
+![Portfolio Mobile View](screenshots/mobile-view.png)
+*Fully responsive design optimized for mobile devices*
+
+> **Note:** To add screenshots:
+> 1. Take screenshots of your portfolio running in the browser
+> 2. Create a `screenshots/` folder in the project root
+> 3. Save screenshots as `dark-mode.png`, `light-mode.png`, and `mobile-view.png`
+> 4. Replace the placeholder paths above with your actual screenshot paths
+
 ## Features
 
 - 🎨 **Modern Design 2025** - Beautiful gradient hero section with glassmorphism effects
