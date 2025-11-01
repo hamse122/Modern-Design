@@ -30,3 +30,12 @@ npm-debug.log*
 # Environment variables
 .env
 .env.local
+
+# Build artifacts
+*.map
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+.cache/
