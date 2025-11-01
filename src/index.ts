@@ -1,7 +1,14 @@
-// Portfolio 2025 - Full TypeScript Implementation
+/**
+ * Portfolio 2025 - Full TypeScript Implementation
+ * Modern portfolio website with dark/light mode and dynamic content generation
+ * 
+ * @author Hamse Mo
+ * @version 1.0.0
+ */
+
 // CSS is loaded via <link> tag in index.html
 
-// ============ INTERFACES ============
+// ============ TYPE DEFINITIONS ============
 interface Project {
   id: number;
   title: string;
@@ -38,6 +45,10 @@ interface NavItem {
 }
 
 // ============ PORTFOLIO DATA ============
+/**
+ * Centralized data class containing all portfolio information
+ * All content can be updated by modifying properties in this class
+ */
 class PortfolioData {
   static readonly personalInfo = {
     name: 'Hamse Mo',
