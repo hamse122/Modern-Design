@@ -584,13 +584,26 @@ class PortfolioApp {
       });
     });
 
-    // Navbar scroll effect
+    // Navbar scroll effect with throttling for performance
     const navbar = document.getElementById('navbar');
-    window.addEventListener('scroll', () => {
+    let lastScrollTop = 0;
+    let ticking = false;
+    
+    const updateNavbar = () => {
       if (navbar) {
-        navbar.classList.toggle('scrolled', window.scrollY > 100);
+        const scrollTop = window.scrollY;
+        navbar.classList.toggle('scrolled', scrollTop > 100);
+        lastScrollTop = scrollTop;
       }
-    });
+      ticking = false;
+    };
+    
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(updateNavbar);
+        ticking = true;
+      }
+    }, { passive: true });
   }
 
   private setupContactForm(): void {
