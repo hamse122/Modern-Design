@@ -1,22 +1,32 @@
 {
-  "name": "typescript-project",
+  "name": "modern-design-portfolio",
   "version": "1.0.0",
-  "description": "A TypeScript, JavaScript, and CSS project",
+  "description": "Modern Portfolio 2025 - Full-stack developer portfolio with TypeScript, dark/light mode, and dynamic content generation",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
     "dev": "tsc --watch",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "serve": "npx http-server -p 8080"
   },
   "keywords": [
+    "portfolio",
     "typescript",
     "javascript",
-    "css"
+    "css",
+    "dark-mode",
+    "light-mode",
+    "modern-design",
+    "2025"
   ],
-  "author": "",
+  "author": "Hamse Mo",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamse122/Modern-Design.git"
   }
 }
