@@ -2,6 +2,14 @@
 
 A cutting-edge, responsive portfolio website built with TypeScript, JavaScript, and CSS. Features modern 2025 design trends including dark/light mode, glassmorphism effects, and dynamic content generation.
 
+## 🔗 Live Demo
+
+🌐 **[View Live Portfolio](https://hamse122.github.io/Modern-Design/)** | 📱 [GitHub Repository](https://github.com/hamse122/Modern-Design)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-2025-blue?style=for-the-badge)](https://hamse122.github.io/Modern-Design/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
 ## Screenshots
 
 ### Dark Mode
