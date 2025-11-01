@@ -54,15 +54,22 @@ npm run watch
 ## Project Structure
 
 ```
-type/
+Modern-Design/
 ├── src/
-│   ├── index.ts          # Main TypeScript file with portfolio logic
-│   └── styles.css        # Modern CSS styles with animations
+│   ├── index.ts          # Main TypeScript application (690+ lines)
+│   │                      # - Data models and interfaces
+│   │                      # - ThemeManager class
+│   │                      # - PortfolioApp class
+│   │                      # - Dynamic content generation
+│   └── styles.css        # Modern CSS with theme system (1000+ lines)
+│                          # - CSS Custom Properties
+│                          # - Dark/Light mode support
+│                          # - Responsive breakpoints
 ├── dist/                 # Compiled JavaScript (generated)
-├── index.html            # HTML entry point
-├── tsconfig.json         # TypeScript configuration
-├── package.json          # Project dependencies
-└── README.md            # This file
+├── index.html            # Minimal HTML entry point
+├── tsconfig.json         # TypeScript compiler configuration
+├── package.json          # Project dependencies and scripts
+└── README.md            # Project documentation
 ```
 
 ## Customization
