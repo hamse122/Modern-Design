@@ -33,3 +33,7 @@ Thumbs.db
 package-lock.json
 yarn.lock
 
+# Temporary files
+temp_*.txt
+temp_*.html
+
