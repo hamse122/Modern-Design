@@ -1,4 +1,14 @@
-/* ============ PORTFOLIO 2025 - MODERN CSS ============ */
+/**
+ * Portfolio 2025 - Modern CSS
+ * Professional styling with dark/light mode support
+ * 
+ * Features:
+ * - CSS Custom Properties for theming
+ * - Responsive design (mobile-first)
+ * - Modern animations and transitions
+ * - Glassmorphism effects
+ * - Accessibility-friendly
+ */
 
 /* ============ CSS VARIABLES - THEME SYSTEM ============ */
 :root {
@@ -54,7 +64,8 @@
   --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
-/* ============ RESET & BASE ============ */
+/* ============ RESET & BASE STYLES ============ */
+/* Normalize and base styling for consistent cross-browser experience */
 * {
   margin: 0;
   padding: 0;
