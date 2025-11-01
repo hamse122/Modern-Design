@@ -75,9 +75,16 @@ npm run watch
 1. Build the project: `npm run build`
 2. Open `index.html` in your browser
 3. Or use a local development server (recommended):
-   - VS Code Live Server extension
-   - Python: `python -m http.server 8000`
-   - Node.js: `npx http-server`
+   ```bash
+   # Using Node.js http-server
+   npm run serve
+   # OR
+   npx http-server -p 8080
+   
+   # Using Python
+   python -m http.server 8000
+   ```
+4. Open your browser and navigate to `http://localhost:8080` (or `http://localhost:8000` for Python)
 
 ## Project Structure
 
