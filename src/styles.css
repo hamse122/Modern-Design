@@ -90,6 +90,22 @@ body {
   min-height: 100vh;
 }
 
+/* Error message styling */
+.error-message {
+  padding: var(--spacing-2xl);
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.error-message h1 {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.error-message p {
+  color: var(--text-secondary);
+}
+
 /* ============ NAVBAR ============ */
 .navbar {
   position: fixed;
