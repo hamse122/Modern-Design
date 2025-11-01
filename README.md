@@ -1,21 +1,22 @@
-# Portfolio Website
+# Modern Design Portfolio 2025
 
-A modern, responsive portfolio website built with TypeScript, JavaScript, and CSS.
+A cutting-edge, responsive portfolio website built with TypeScript, JavaScript, and CSS. Features modern 2025 design trends including dark/light mode, glassmorphism effects, and dynamic content generation.
 
 ## Features
 
-- 🎨 **Modern Design** - Beautiful gradient hero section with smooth animations
+- 🎨 **Modern Design 2025** - Beautiful gradient hero section with glassmorphism effects
+- 🌓 **Dark/Light Mode** - Seamless theme switching with persistent preferences
 - 📱 **Fully Responsive** - Works perfectly on desktop, tablet, and mobile devices
-- ⚡ **TypeScript** - Type-safe development with modern ES modules
+- ⚡ **TypeScript-First** - 100% TypeScript with dynamic content generation
 - 🎯 **Interactive Sections**:
-  - Hero section with call-to-action buttons
-  - About section with animated statistics
-  - Skills section with progress bars
-  - Projects showcase with interactive cards
-  - Contact form with validation
+  - Hero section with floating elements and animated avatar
+  - About section with animated statistics counters
+  - Skills section with animated progress bars
+  - Projects showcase with interactive hover effects
+  - Contact form with validation and feedback
 - ✨ **Smooth Animations** - Scroll-triggered animations and transitions
-- 🎭 **Mobile Menu** - Hamburger menu for mobile navigation
-- 🚀 **Performance Optimized** - Lightweight and fast loading
+- 🎭 **Mobile Menu** - Responsive hamburger menu navigation
+- 🚀 **Performance Optimized** - Lightweight, fast loading, and optimized
 
 ## Prerequisites
 
