@@ -537,11 +537,19 @@ class PortfolioApp {
   }
 
   private initialize(): void {
-    this.setupNavigation();
-    this.setupThemeToggle();
-    this.setupContactForm();
-    this.setupAnimations();
-    this.setupSmoothScroll();
+    try {
+      this.setupNavigation();
+      this.setupThemeToggle();
+      this.setupContactForm();
+      this.setupAnimations();
+      this.setupSmoothScroll();
+    } catch (error) {
+      console.error('Error initializing portfolio app:', error);
+      // Fallback: at least show the content
+      if (this.app) {
+        this.app.innerHTML = '<div class="error-message"><h1>Portfolio</h1><p>An error occurred loading the portfolio. Please refresh the page.</p></div>';
+      }
+    }
   }
 
   private setupThemeToggle(): void {
